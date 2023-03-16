@@ -11,6 +11,5 @@ int main(int argc, char*argv[])
         b=b*i;
     }
     cout<<"\nEl factorial de "<<a<<" es: "<<b;
-    
     return 0;
 }
