@@ -4,7 +4,7 @@ int
 	n,suma=0;
 int main(int argc, char *argv[]) 
 {
-	cout<<"Voy a encontrar el total de sumas acomulativas de cualquier numero que me des";
+	cout<<"--Voy a encontrar el total de sumas acomulativas de cualquier numero que me des--";
 	cout<<"\nIngresa un numero: ";
 	cin>>n;
 	while (n>0)

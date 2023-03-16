@@ -4,7 +4,8 @@ int
 	cont=0,cont2=0,n;
 int main(int argc, char *argv[])
 {
-	cout<<"Cuantos numeros quieres? \n";
+	cout<<"--Te dare un triangulo con asteriscos del menor al mayor--";
+	cout<<"\nDe cuantos numeros quieres el triangulo? \n";
 	cin>>n;
 	while (cont<n)
 	{

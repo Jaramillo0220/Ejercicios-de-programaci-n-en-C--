@@ -4,7 +4,8 @@ int
 	n,cont=0,b,num=0;
 int main(int argc, char *argv[]) 
 {
-	cout<<"Ingresa la cantidad de numeros que quieres saber si es par o inpar: ";
+	cout<<"--Te dire si el numero que me estas dando es PAR o INPAR--";
+	cout<<"Ingresa la cantidad de numero: ";
 	cin>>n;
 	while (cont<n)
 	{
