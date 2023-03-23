@@ -9,7 +9,7 @@ int main (int argc, char*argv[])
     cout<<"\nCantidad de meses para pagar el telefono: ";cin>>b;
     cout<<"\n\nMeses           Pagos              Interes              Deuda            Pago Mensual\n";
     c=0;total=0;pago=a/b;interes=a*(inte*.01);deuda=a-(a/b);pagosM=(a/b)+(a*(inte*.01));
-        for (int i=b;i>0;i--){total=total+pagosM;
+        for (int i=0;i<b;i++){total=total+pagosM;
             if(deuda>0){c+=1;cout<<"\n "<<c<<"             "<<pago<<"             "<<interes<<"             "<<deuda<<"             "<<pagosM;
             interes=deuda*(inte*.01);deuda=deuda-pago;pagosM=pago+interes;}
                 else{c+=1;cout<<"\n "<<c<<"             "<<pago<<"             "<<interes<<"             "<<0<<"                   "<<pagosM;}}
