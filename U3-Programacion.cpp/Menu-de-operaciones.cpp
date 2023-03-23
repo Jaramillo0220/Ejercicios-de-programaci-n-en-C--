@@ -6,33 +6,24 @@ char
 	resp;
 int main(int argc, char *argv[])
 {
-	do
-		{
-			cout<<"Menu\n";
-			cout<<"1.- Suma 2 numeros\n";
-			cout<<"2.- Multiplica 2 numeros\n";
-			cout<<"3.- resta 2 numeros\n";
-			cout<<"\n";
-			cout<<"Elige una opcion: ";
-			cin>>X;
-			N1=0;N2=0;
-			cout<<"\n";
-				switch (X)
-					{
-						case 1:
+	do{
+			cout<<"Menu\n";cout<<"1.- Suma 2 numeros\n";cout<<"2.- Multiplica 2 numeros\n";cout<<"3.- resta 2 numeros\n";
+			cout<<"\n";cout<<"Elige una opcion: ";cin>>X;N1=0;N2=0;cout<<"\n";
+				switch (X){
+					case 1:
 						cout<<"Ingresa el primer numero: ";
 						cin>>N1;
 						cout<<"Ingresa el segundo numero: ";
 						cin>>N2;
 						cout<<"\n";
 						cout<<"La suma de los 2 numeros es: "<<N1+N2<<"\n";break;
-						case 2:cout<<"Ingresa el primer numero: ";
+					case 2:cout<<"Ingresa el primer numero: ";
 						cin>>N1;
 						cout<<"Ingresa el segundo numero: ";
 						cin>>N2;
 						cout<<"\n";
 						cout<<"La multiplicacion de los 2 numeros es: "<<N1*N2<<"\n";break;
-						case 3:cout<<"Ingresa el primer numero: ";
+					case 3:cout<<"Ingresa el primer numero: ";
 						cin>>N1;
 						cout<<"Ingresa el segundo numero: ";
 						cin>>N2;
