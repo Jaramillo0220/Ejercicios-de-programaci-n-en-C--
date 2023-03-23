@@ -4,7 +4,7 @@ int u,d,c,m,a;
 int main (int argc, char*argv[])
 {
     cout<<"Te dare el desgloce de cualquier numero que me des";
-    cout<<"Ingresa un numero: ";
+    cout<<"\nIngresa un numero: ";
     cin>>a;
     u=a%10;d=(a/10)%10;c=(a/100)%10;m=(a/1000)%10;
     cout<<m<<"\n";cout<<c<<"\n";cout<<d<<"\n";cout<<u<<"\n";
@@ -13,7 +13,6 @@ int main (int argc, char*argv[])
     case 1:cout<<"\nMil";break;
     case 2:cout<<"\nDos mil";break;
     case 3:cout<<"\nTres mil";break;
-    default:cout<<"La opciones no existe";break;
     }
     switch (c)
     {
@@ -26,7 +25,6 @@ int main (int argc, char*argv[])
     case 7:cout<<"\nSientecientos";break;
     case 8:cout<<"\nOchocientos";break;
     case 9:cout<<"\nNovecientos";break;
-    default:cout<<"La opciones no existe";break;
     }
     switch (d)
     {
@@ -39,7 +37,6 @@ int main (int argc, char*argv[])
     case 7:cout<<"\nSetenta";break;
     case 8:cout<<"\nOchenta";break;
     case 9:cout<<"\nNoventa";break;
-    default:cout<<"La opciones no existe";break;
     }
     switch (u)
     {
@@ -52,6 +49,5 @@ int main (int argc, char*argv[])
     case 7:cout<<"\nSiete";break;
     case 8:cout<<"\nOcho";break;
     case 9:cout<<"\nNueve";break;
-    default:cout<<"La opciones no existe";break;
     }
 }
