@@ -4,7 +4,7 @@ int sum=0,x;
 char frase[30];
 int main (int argc, char* argv[])
 {
-    cout<<"Introduce la frase \n";
+    cout<<"Introduce la frase: \n";
     cin>>frase;
         for (x=0;x<30;x++)
         {
