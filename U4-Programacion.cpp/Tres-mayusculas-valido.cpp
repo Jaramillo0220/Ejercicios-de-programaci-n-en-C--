@@ -5,8 +5,7 @@ char frase[30],resp;
 int main (int argc, char* argv[])
 {
     do{
-    sum=0;
-    cout<<"\n\nIntroduce la frase: \n";cin>>frase;
+    cout<<"\n\nIntroduce la frase: \n";cin>>frase;sum=0;
         for (x=0;x<30;x++){
             switch(frase[x]){case 'A':sum++;break;case 'E':sum++;break;case 'I':sum++;break;
             case 'O':sum++;break;case 'U':sum++;break;default:break;}}
