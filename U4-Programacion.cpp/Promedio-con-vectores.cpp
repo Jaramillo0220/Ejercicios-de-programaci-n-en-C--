@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int i,a; char resp;
+int i,a=0; char resp;
 int main(int argc, char *argv[]) {
     do{
     cout<<"\n\nTe dire el promedio general de los alumnos, solo me tienes que dar sus califiaciones";
