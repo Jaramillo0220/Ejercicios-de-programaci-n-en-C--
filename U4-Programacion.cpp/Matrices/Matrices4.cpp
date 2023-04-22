@@ -13,8 +13,8 @@ int main (int argc, char* argv[])
     cout<<"\n2. Los datos se rellenaran aleatoriamente ";cout<<"\nIngresa la opcion: ";cin>>x;
     switch (x)
     {
-        case 1:cout<<"\nIngresa la cantidad de columnas (vertical): ";cin>>b1;
-        cout<<"Ingresa la cantidad de filas (horizontal): ";cin>>b2;cout<<"\n";
+        case 1:cout<<"\nIngresa la cantidad de columnas (vertical): ";cin>>b2;
+        cout<<"Ingresa la cantidad de filas (horizontal): ";cin>>b1;cout<<"\n";
             for(i=0;i<b2;i++)
             {
                 for(j=0;j<b1;j++){cont=cont+1;
@@ -40,8 +40,8 @@ int main (int argc, char* argv[])
                 for(j=0;j<b1;j++){cout<<" [ "<<c[i][j]<<" ] ";}
             cout<<"\n";
             }break;
-        case 2:cout<<"\nIngresa la cantidad de columnas (vertical): ";cin>>b1;
-        cout<<"Ingresa la cantidad de filas (horizontal): ";cin>>b2;cout<<"\n";
+        case 2:cout<<"\nIngresa la cantidad de columnas (vertical): ";cin>>b2;
+        cout<<"Ingresa la cantidad de filas (horizontal): ";cin>>b1;cout<<"\n";
         srand(time(NULL));
             for(i=0;i<b2;i++)
             {
