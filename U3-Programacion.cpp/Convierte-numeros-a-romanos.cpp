@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
-int u,d,c,m,a;
+int u,d,c,m,a;char resp;
 int main (int argc, char*argv[])
 {
-    cout<<"Ingresa un numero: ";
-    cin>>a;
+    do{
+	cout<<"\nTe covertire de numero decimal a numero romano";	
+	cout<<"\nIngresa un numero decimal: ";cin>>a;cout<<"\n";
     u=a%10;d=(a/10)%10;c=(a/100)%10;m=(a/1000)%10;
     switch (m)
     {
@@ -52,4 +53,7 @@ int main (int argc, char*argv[])
     case 9:cout<<"IX";break;
     default:cout<<"La opciones no existe";break;
     }
+	cout<<"\n\nQuires ingresar otro numero? (y/n) ";cin>>resp;
+	}while(resp=='y' || resp=='Y');
+	return 0;
 }
