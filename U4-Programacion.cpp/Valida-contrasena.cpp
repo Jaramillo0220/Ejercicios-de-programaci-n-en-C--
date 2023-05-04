@@ -10,7 +10,3 @@ cout<<"\nIntroduce la contrasena: ";cin>>c;
     }while(strcmp(c,c2)!=0);
     return 0;
 }
-
-
-
-
