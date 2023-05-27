@@ -3,7 +3,7 @@
 using namespace std;
 int b=0,v,h;
 char a[16][3]={"H","J","K","L","E","O","N","M","F","I","L","O","G","H","V","A"},comp[16];
-char ab[16][3]={"H","T","D","Q","L","O","B","X","W","A","L","H","Q","I","O","A"};
+char ab[20][3]={"H","T","D","Q","L","O","B","X","W","A","L","H","Q","I","O","A"};
 int main (int argc,char* argv[])
 {
     for(v=0;v<4;v++)
